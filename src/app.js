@@ -14,6 +14,11 @@ const resultInput = document.querySelector("#result")
 const calcButton = document.querySelector("#calcButton")
 
 calcButton.addEventListener('click', (e) => {
+    startCalc();
+    
+})
+
+function startCalc() {
     const a = Number(aSide.value)
     const b = Number(bSide.value)
     const c = Number(cSide.value)
@@ -21,7 +26,7 @@ calcButton.addEventListener('click', (e) => {
 
     const result = calcValue(a, b, c, d)
     resultInput.value = result
-})
+}
 
 function calcValue(a, b, c, d) {
     const felkerulet = (a+b+c+d) / 2
