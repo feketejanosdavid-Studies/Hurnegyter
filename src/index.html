@@ -18,12 +18,50 @@
     <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col text-white bg-dark pb-2">
+                <h1 class="text-center">Húrnégyszög területének kiszámítása</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <main>
+                    <hr>
+                    <div class="Form ">
+                        <div class="input">
+                            <label for="a" class="form-label">A oldal</label>
+                            <input type="text" id="a" required class="form-control">
+                        </div>
+                        <div class="input">
+                            <label for="b" class="form-label">B oldal</label>
+                            <input type="text" id="b" required class="form-control">
+                        </div>
+                        <div class="input">
+                            <label for="c" class="form-label">C oldal</label>
+                            <input type="text" id="c" required class="form-control">
+                        </div>
+                        <div class="input">
+                            <label for="d" class="form-label">D oldal</label>
+                            <input type="text" id="d" required class="form-control">
+                        </div>
+                        <div>
+                            <button id="calcButton" class="btn btn-primary mt-2">Számít</button>
+                        </div>
+                        <div class="input">
+                            <label for="result" class="form-label">Eredmény</label>
+                            <input type="text" id="result" class="form-control mb-5" placeholder="Eredmény itt fog megjelenni... " readonly>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
 
 
 
 
-    
+
     <script src="app.js"></script>
 </body>
 </html>
