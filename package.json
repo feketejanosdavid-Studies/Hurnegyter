@@ -1,0 +1,19 @@
+{
+  "name": "dolgozat_1",
+  "version": "1.0.0",
+  "description": "1. Dolgozat",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --config bs-config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fekete János Dávid, 1-I-N, 2024-03-07",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
