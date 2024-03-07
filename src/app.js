@@ -13,7 +13,7 @@ const dSide = document.querySelector("#d")
 const resultInput = document.querySelector("#result")
 const calcButton = document.querySelector("#calcButton")
 
-calcButton.addEventListener('click', (e) => {
+calcButton.addEventListener('click', () => {
     startCalc();
     
 })
